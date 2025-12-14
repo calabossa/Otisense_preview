@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OtiSense | Idea</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .idea-section {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  padding: 100px 10%;
+	  min-height: 100vh;
+	}
+
+    .section:nth-child(even) {
+      background-color: #f3f3f3;
+      color: #111;
+    }
+    .section:nth-child(odd) {
+      background-color: #111;
+      color: white;
+    }
+    .section-content {
+      flex: 1;
+      padding-right: 40px;
+    }
+    .section-image {
+      flex: 1;
+      max-width: 400px;
+    }
+    .section img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    ul {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        padding: 60px 5%;
+      }
+      .section-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+</head>
+<body class="light-page">
+	<header>
+	  <nav class="navbar">
+		<a href="index.html" class="logo">
+		  <img src="logo.png" alt="OtiSense logo">
+		</a>
+		<ul class="nav-links">
+		  <li><a href="idea.html">Idea</a></li>
+		  <li><a href="products.html">Products</a></li>
+		  <li><a href="team.html">Team</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	  </nav>
+	</header>
+  <!-- Section 1: The Need -->
+  <section class="idea-section" id="need">
+    <div class="section-content">
+      <h2>The Need</h2>
+      <ul>
+        <li>AOM affects 80-90% of children experiencing at least one episode before age 4.</li>
+        <li>30–40% of children will have recurrent AOM episodes.</li>
+        <li>AOM is the leading cause of paediatric visits worldwide.</li>
+        <li>Diagnostic accuracy ~50%.</li>
+        <li>In the U.S., >80% of AOM visits result in antibiotics, although ~70% resolve without them.</li>
+        <li>This overuse drives antimicrobial resistance (AMR).</li>
+      </ul>
+    </div>
+    <div class="section-image">
+      <img src="Otoscope.jpg" alt="Placeholder image for need section">
+    </div>
+  </section>
+
+  <!-- Section 2: The Solution -->
+  <section class="idea-section" id="solution">
+    <div class="section-content">
+      <h2>Our Solution</h2>
+      <ul>
+        <li>Home-use diagnostic device powered by AI and signal processing.</li>
+        <li>Uses EEG response to taste bud stimulation for precise diagnosis.</li>
+        <li>User-friendly and intuitive design.</li>
+        <li>Precise and accurate diagnostic outcomes.</li>
+      </ul>
+    </div>
+    <div class="section-image">
+      <img src="Picture1.png" alt="Placeholder image for solution section">
+    </div>
+  </section>
+
+<body class="light-page">
+</html>
