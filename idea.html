@@ -49,7 +49,7 @@
       line-height: 1.8;
     }
     @media (max-width: 768px) {
-      .section {
+      .idea-section {
         flex-direction: column;
         padding: 60px 5%;
       }
@@ -57,22 +57,34 @@
         padding-right: 0;
         margin-bottom: 30px;
       }
+      h2 {
+        font-size: 2.2rem;
+      }
+      ul {
+        font-size: 1.3rem;
+        line-height: 1.7;
+      }
+      li {
+        margin-bottom: 12px;
+      }
     }
   </style>
 </head>
 <body class="light-page">
-	<header>
-	  <nav class="navbar">
-		<a href="index.html" class="logo">
-		  <img src="logo.png" alt="OtiSense logo">
-		</a>
-		<ul class="nav-links">
-		  <li><a href="idea.html">Idea</a></li>
-		  <li><a href="products.html">Products</a></li>
-		  <li><a href="team.html">Team</a></li>
-		  <li><a href="#contact">Contact</a></li>
-		</ul>
-	  </nav>
+	<header class="navbar">
+	  <a href="index.html" class="logo">
+		<img src="logo.png" alt="OtiSense logo">
+	  </a>
+
+	  <input type="checkbox" id="menu-toggle" />
+	  <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+	  <ul class="nav-links">
+		<li><a href="idea.html">Idea</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	  </ul>
 	</header>
   <!-- Section 1: The Need -->
   <section class="idea-section" id="need">
@@ -107,6 +119,5 @@
       <img src="Picture1.png" alt="Placeholder image for solution section">
     </div>
   </section>
-
-<body class="light-page">
+</body>
 </html>
