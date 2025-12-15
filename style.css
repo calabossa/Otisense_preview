@@ -17,6 +17,8 @@ body {
   margin-top: 80px; /* keeps space for navbar */
   box-sizing: border-box;
   min-height: calc(100vh - 100px); /* ✅ fills screen minus navbar + some breathing room */
+  position: relative;
+  z-index: 10;
 }
 
 h1 {
@@ -49,6 +51,24 @@ h1 {
   margin-top: 1rem;
   text-align: center;
   font-weight: 400;
+}
+
+.decorative-logo {
+  position: fixed;
+  bottom: 15%;
+  left: 15%;
+  z-index: 15;
+  pointer-events: none;
+  width: 50%;
+  max-width: 700px;
+}
+
+.decorative-logo img {
+  width: 100%;
+  height: auto;
+  opacity: 0.08;
+  filter: grayscale(30%);
+  mix-blend-mode: multiply;
 }
 
 @keyframes fadeImage {
@@ -165,6 +185,18 @@ h1 {
 
   #menu-toggle:checked + .hamburger + .nav-links {
     display: flex;
+  }
+
+  .decorative-logo {
+    bottom: 10%;
+    left: 10%;
+    width: 55%;
+    max-width: 280px;
+  }
+
+  .decorative-logo img {
+    width: 100%;
+    opacity: 0.06;
   }
 }
 
