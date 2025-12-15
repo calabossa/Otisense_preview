@@ -190,13 +190,13 @@ h1 {
   .decorative-logo {
     bottom: 10%;
     left: 10%;
-    width: 75%;
-    max-width: 450px;
+    width: 90%;
+    max-width: 600px;
   }
 
   .decorative-logo img {
     width: 100%;
-    opacity: 0.06;
+    opacity: 0.08;
   }
 }
 
