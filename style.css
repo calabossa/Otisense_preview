@@ -3,8 +3,8 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
-  background-color: #1a1a1a;
-  color: #f0f0f0;
+  background-color: #ffffff;
+  color: #2c2c2c;
   scroll-behavior: smooth;
 }
 
@@ -22,30 +22,33 @@ body {
 h1 {
   font-size: 48px;
   margin-bottom: 10px;
-  color: #eaeaea;
+  color: #1a1a1a;
+  font-weight: 600;
 }
 
 .tagline {
   font-size: 20px;
-  color: #cccccc;
+  color: #555555;
   margin-bottom: 40px;
 }
 
 .hero-image {
   width: 250px;
   max-width: 90vw;
-  max-height: 80vh;  /* ✅ Add this line */
+  max-height: 80vh;
   opacity: 0;
   animation: fadeImage 2s ease-out 1.5s forwards;
   border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .subtitle {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.0rem;
-  color: #d0d0d0;
+  color: #4a4a4a;
   margin-top: 1rem;
   text-align: center;
+  font-weight: 400;
 }
 
 @keyframes fadeImage {
@@ -129,7 +132,7 @@ h1 {
   color: #222;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .nav-links li a:hover {
@@ -154,6 +157,10 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     gap: 15px;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
   }
 
   #menu-toggle:checked + .hamburger + .nav-links {
