@@ -260,19 +260,27 @@ h1 {
     font-size: 1.85rem;
   }
 
+  .hero-image {
+    width: 180px;
+    max-width: 70vw;
+  }
+
   .features {
-    flex-direction: column;
-    gap: 40px;
-    padding: 40px 20px;
+    flex-direction: row;
+    gap: 30px;
+    padding: 25px 15px;
+    margin-top: 15px;
   }
 
   .feature-icon {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+    margin-bottom: 10px;
   }
 
   .feature-title {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .decorative-logo {
