@@ -257,22 +257,26 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     gap: 15px;
-	font-face: Obuntu;
   }
 
   .nav-links li a {
     font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   #menu-toggle:checked + .hamburger + .nav-links {
     display: flex;
   }
 
+  .hero {
+    flex-direction: column-reverse;
+  }
+
   .hero-text {
     background-color: #8b5cf6;
     padding: 40px 30px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     gap: 25px;
   }
 
